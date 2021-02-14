@@ -30,3 +30,13 @@ The Bot class is designed specifically for you to create functional bots with. I
 ## A Note About Naming
 
 If you are using discord.Client you should name that variable `client`, likewise, if you are using commands.Bot you should name that variable `bot`. If you stick to naming things like this it will help you and other people understand your code, and make it easier for people to help if something breaks. Good naming matters. Readability counts. Please name your variables correctly, naming a Bot 'client' is akin to creating a variable called `integer` and setting it to a string.
+
+Correct:
+```py
+bot = commands.Bot(command_prefix="!")
+```
+
+Incorrect:
+```py
+client = commands.Bot(command_prefix="!")
+```
